@@ -1,0 +1,390 @@
+/* 
+*       GENERAL
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+section {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.cards {
+    padding: 0;
+    width: 80vw;
+
+    background-color: #AAE6FF;
+    margin: 2% 0 2% 0;
+}
+
+.cards img {
+    width: 100%;
+    height: auto;
+}
+
+.cards h3 {
+    padding: 3%;
+    font-size: 1.2rem;
+}
+
+.card-button {
+    border: none;
+
+    width: 100%;
+    height: 3rem;
+
+    background-color: #870AA0;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+
+.glas-background {
+    background: linear-gradient(90deg, rgba(255,255,255,0.8743872549019608) 0%, rgba(255,255,255,0.908000700280112) 52%, rgba(255,255,255,0.3897934173669467) 100%);
+}
+
+
+
+/*
+*       HEADER
+*/
+
+.logo-desktop-container {
+    display: none;
+}
+
+.nav-bar {
+    box-sizing: content-box;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+
+    width: 100vw;
+}
+
+.almi-logo-mobile {
+    width: 20vw;
+    height: auto;
+
+} 
+
+
+
+/*
+*       MAIN   
+*/
+
+/*      Hero     */
+
+.hero {
+    min-height: 100vh;
+    width: 100vw;
+    
+    background-image: url("../assets/img/almi-hero-mobile.jpg");
+    background-size: cover;
+}
+
+.title {
+    /* box-sizing: border-box; */
+
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FA1996;
+
+    position: absolute;
+    top: 50vh;
+    left: 10vw;
+}
+
+
+
+/*  Pitch USP   */
+
+.grafik-boll {
+    width: 20vw;
+    height: auto;
+
+}
+
+.grafik-cirkel {
+    width: 50vw;
+    height: auto;
+}
+
+
+
+/*      Alternativ       */
+
+#alternativ {
+    width: 100vw;
+}
+
+#alternativ article {
+    width: 100%;
+    /* max-height: 60vh; */
+}
+
+#alternativ button {
+    border: none;
+    background-color: #2819FF;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+
+#alternativ i {
+    font-size: 1.8em;
+}
+
+.sum {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.lilla {
+    background-color: #F8F8F8;
+}
+
+.mellan {
+    background-color: #FFF0AF;
+}
+
+.stora {
+    background-color: #FFBE9B;
+}
+
+
+
+/*      testimonials     */
+
+.testimonials {
+    width: 100vw;
+    height: auto;
+}
+
+.citat {
+    padding: 3%;
+}
+
+
+/*      Tjänster         */
+
+#other-services {
+    background-color: #F2F0F0;
+}
+
+
+
+/*
+*       FOOTER   
+*/
+
+.footer {
+    background-color: #A0AAFF;
+    color: #FFFFFF;
+}
+
+.footer button {
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    /* text-transform: uppercase; */
+
+    border: none;
+    background-color: #870AA0;
+    color: #FFFFFF;
+}
+
+.footer input {
+    border: none;
+}
+
+.footer a {
+    color: #FFFFFF;
+}
+
+
+
+.social-icons i {
+    font-size: 2.5rem;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    /* 
+    *       GENERAL
+    */
+
+    .cards {
+        width: 35vw;
+
+    }
+
+
+
+    /*
+    *       HEADER
+    */
+
+    .logo-desktop-container {
+        display: inline;
+
+        position: absolute;
+        left: 10vw;
+        top: 10vh;
+    }
+
+    .almi-logo {
+        width: 60vw;
+        height: auto;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    /*
+    *       MAIN
+    */
+
+    /*      Hero        */
+    .hero {
+        background-image: url("../assets/img/almi-hero.jpg");
+
+        min-height: 70vh;
+        width: auto;
+    }
+
+    .title {
+        font-size: 3vw;
+    }
+
+
+
+    /*      Pitch USP        */
+
+
+
+    #pitch-usp article {
+        max-width: 40vw;
+    }
+
+    .grafik-boll {
+        display: none;
+
+        /* width: 5vw;
+        height: auto;
+    
+        position: absolute;
+        z-index: -2;
+        right: 0;
+        top: 0; */
+    }
+    
+    .grafik-cirkel {
+        width: 15vw;
+        height: auto;
+
+        position: absolute;
+        z-index: -2;
+        left: -130%;
+        bottom: 0;
+    }
+
+    /*      Alternativ       */
+
+    /*      testimonials     */
+
+    .testimonials {
+        height: auto;
+
+    }
+
+
+    .linus {
+        width: auto;
+        height: 40vh;
+
+        /* position: absolute; */
+        z-index: -1;
+    }
+
+    /* .testimonial-cards {
+        
+    } */
+
+    /*      Tjänster     */
+
+    /*
+    *       FOOTER
+    */
+
+    .footer article {
+        max-width: 30vw;
+    }
+
+    .footer button {
+        font-size: 1rem;
+    }
+    
+
+    .social-icons i {
+        font-size: 4rem;
+    }
+    
+    
+}
+
+
+
+
+
+
+/* ===================  ANTECKNINGAR   ============================
+
+Mellan ungefär 560 och 750 px bredd funkar den inte.
+
+
+
+
+
+( ) Fixa sociala-medierlänkar
+( ) Github
+( ) netlify
+
+================================================================= */
